@@ -1,0 +1,66 @@
+h1{
+    text-align: center;
+}
+
+.outershell{
+    border: 2px solid rgb(215, 14, 81);
+   padding: 5px;
+   
+    
+}
+.border1{
+    border: 2px solid rgb(108, 160, 5) ;
+    padding: 5px;
+    display: flex;
+    gap: 10px;
+    justify-content:center;
+    flex-wrap: wrap;
+    
+   
+}
+.box11,.box12,.box13,.box14{
+    border: 2px solid red;
+    padding: 30px;
+    width: 40px;
+    background-color: rgb(147, 235, 251);
+    border-radius: 10px;
+}
+.border2{
+    border: 2px solid rgb(200, 134, 10);
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+    flex-wrap: wrap;
+
+
+}
+.box21,.box22,.box23{
+    border: 2px solid green;
+    padding: 40px;
+    height: 100px;
+    background-color: rgb(195, 141, 246);
+    border-radius: 10px;
+}
+.box22{
+    flex-grow: 1;
+    
+}
+.border3{
+    border: 2px solid blue;
+    padding: 5px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+} 
+.box31,.box32,.box33{
+    border: 2px solid violet;
+    padding: 25px;
+    width: 90px;
+    background-color: burlywood;
+    border-radius: 10px;
+}
+.border1,.border2{
+    margin-bottom: 5px;
+        
+}
